@@ -65,8 +65,8 @@ public class Topic_07_Check_Locator2 {
 	public void TC_07_Xpath(){
 	
 		driver.get("https://demo.nopcommerce.com/register");
-		driver.findElement(By.cssSelector("//input[#id='LastName']")).sendKeys("Locator");
-		driver.findElement(By.cssSelector("//label[text()='Email:']/following-sibling::input")).sendKeys("automation@gmail.com");
+		driver.findElement(By.xpath("//input[@id='LastName']")).sendKeys("Locator");
+		
 	}
 	
 	
